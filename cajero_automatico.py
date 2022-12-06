@@ -20,9 +20,7 @@ def cajero():
             print("     #4  Transferir dinero;")
             print("     #5  Comprar dólares;")
             print("     #6  Vender dólares;")
-            print("     #7  Crear plazo fijo;")
-            print("     #8  Ver últimos movimientos;")
-            print("     #9  Salir de la cuenta.")
+            print("     #7  Salir de la cuenta.")
             print("#########################################")
             opcion = int(input("Ingrese su opción: "))
             print("#####################################################")
@@ -145,10 +143,8 @@ def cajero():
                     exit = True
                 else:
                     exit = False
-            #7crear plazo fijo
-            #8ver ultimos movimientos
-            #9salir de la cuenta
-            elif opcion == 9:
+            #7salir de la cuenta
+            elif opcion == 7:
                 print("Gracias por utilizar nuestros servicios.")
                 print("######## SE CERRÓ LA SESIÓN ########")
                 exit = True
